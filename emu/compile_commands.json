@@ -1,0 +1,50 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Wall",
+      "-Werror=overflow",
+      "--std=c++11",
+      "-Iinclude/",
+      "-c",
+      "-o",
+      "obj/src/load.o",
+      "src/load.cpp"
+    ],
+    "directory": "/home/calvin/Coding/C++/CAL-8/emu",
+    "file": "/home/calvin/Coding/C++/CAL-8/emu/src/load.cpp",
+    "output": "/home/calvin/Coding/C++/CAL-8/emu/obj/src/load.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Wall",
+      "-Werror=overflow",
+      "--std=c++11",
+      "-Iinclude/",
+      "-c",
+      "-o",
+      "obj/src/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/home/calvin/Coding/C++/CAL-8/emu",
+    "file": "/home/calvin/Coding/C++/CAL-8/emu/src/main.cpp",
+    "output": "/home/calvin/Coding/C++/CAL-8/emu/obj/src/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Wall",
+      "-Werror=overflow",
+      "--std=c++11",
+      "-Iinclude/",
+      "-c",
+      "-o",
+      "obj/src/util.o",
+      "src/util.cpp"
+    ],
+    "directory": "/home/calvin/Coding/C++/CAL-8/emu",
+    "file": "/home/calvin/Coding/C++/CAL-8/emu/src/util.cpp",
+    "output": "/home/calvin/Coding/C++/CAL-8/emu/obj/src/util.o"
+  }
+]

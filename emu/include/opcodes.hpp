@@ -1,0 +1,15 @@
+#pragma once
+
+#define NUL 0x0
+#define LDA  0x1
+#define STA  0x2
+#define ADD  0x3
+#define SUB  0x4
+#define JUMP 0x5
+#define JSUB 0x6
+#define RET  0x7
+#define COMP 0x8
+#define BIE  0x9
+#define BNE  0xA
+#define BIG  0xB
+#define BIL  0xC

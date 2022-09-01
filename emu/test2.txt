@@ -1,0 +1,12 @@
+Language client log: /home/calvin/.cache/lvim/lsp.log
+ Detected filetype:   cpp
+ 
+ 1 client(s) attached to this buffer: 
+ 
+ Client: clangd (id: 1, pid: 518538, bufnr: [7])
+ 	filetypes:       c, cpp, objc, objcpp, cuda
+ 	autostart:       true
+ 	root directory:  /home/calvin/Coding/C++/CAL-8/emu
+ 	cmd:             clangd --all-scopes-completion --suggest-missing-includes --background-index --pch-storage=disk --cross-file-rename --log=info --completion-style=detailed --enable-config --clang-tidy
+ 
+ Configured servers list: clangd

@@ -1,0 +1,31 @@
+Buffer info
+* filetype:                cpp
+* bufnr:                   7
+* treesitter status:       active
+
+Active client(s)
+* name:                      clangd
+* id:                        1
+* supported filetype(s):     [c, cpp, objc, objcpp, cuda]
+* attached buffers:          7
+* root_dir pattern:          7
+* capabilities:              astProvider              | definitionProvider              | hoverProvider
+                             clangdInlayHintsProvider | declarationProvider             | selectionRangeProvider
+                             documentSymbolProvider   | typeHierarchyProvider           | referencesProvider
+                             workspaceSymbolProvider  | documentRangeFormattingProvider | memoryUsageProvider
+                             callHierarchyProvider    | documentFormattingProvider      | implementationProvider
+                             typeDefinitionProvider   | documentHighlightProvider
+
+Automatic LSP info
+* Skipped servers: [angularls, ansiblels, csharp_ls, cssmodules_ls, denols, ember, emmet_ls, eslint, golangci_lint_ls, graphql, jedi_language_server, ltex, phpactor, psalm, pylsp, quick_lint_js, rome, reason_ls, solang, sorbet, sourcery, sqlls, sqls, stylelint_lsp, tflint, svlangserver, verible, vuels, clangd]
+
+Formatters info
+* Active: 
+* Supported: [astyle, clang_format, uncrustify]
+
+Linters info
+* Active: 
+* Supported: [cppcheck, gccdiag]
+
+Code actions info
+* Active: 

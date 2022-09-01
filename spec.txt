@@ -1,0 +1,28 @@
+=== Instructions ===
+HEX : NAME ARGS             - DESCRIPTION
+0x0 : NULL                  - does nothing
+0x1 : LDA  addr             - Loads a value into the accumulator
+0x2 : STA  addr             - Stores a value from the accumulator
+0x3 : ADD  addr             - Adds to the accumulator
+0x4 : SUB  addr             - Subtracts from the accumulator
+0x5 : JUMP addr             - Jump somewhere
+0x6 : JSUB addr             - Jump to subroutine
+0x7 : RET                   - Return from subroutine
+0x8 : COMP (a)addr, (b)addr - Compares 2 values
+0x9 : BIE  addr             - Branch based on the last comparison (a==b)
+0xA : BNE  addr             - Branch based on the last comparison (a!=b)
+0xB : BIG  addr             - Branch based on the last comparison (a>b)
+0xC : BIL  addr             - Branch based on the last comparison (a<b)
+0xD : NULL
+0xE : NULL
+0xF : NULL
+
+NOTE: if arg2 is 0xF then arg1 will be treated as a literal value (except for with COMP)
+
+=== Registers ===
+A = Accumulator
+PC = Program Counter
+C = Comparison result
+
+=== Stacks ===
+CS = Call Stack

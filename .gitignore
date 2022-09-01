@@ -1,0 +1,6 @@
+.vscode
+.idea
+.gdb_history
+./emu/.gdb_history
+./emu/.clangd
+
