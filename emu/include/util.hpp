@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+#include <vector>
 #include <sys/ioctl.h>
 
 std::string repeat(std::string str, int n);

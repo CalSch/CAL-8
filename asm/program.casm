@@ -1,0 +1,19 @@
+; This is a program with syntax I want to implement
+; Comment
+ 
+DISP: $0xFF ; Variable DISP is stored at 0xFF
+DISP2: $0xFE
+
+main:
+  LDA DISP
+  Add $0x01  ; Add 1 ; Also not case sensetive
+  STA DISP  ; Store Accumulator to DISP (0x0FF)
+  JSUB thing; Jump to thing as a subroutine
+  JUMP main ; Jump to main when thing returns
+
+thing:
+  LDA DISP2
+  SUB $0x01
+  STA DISP2
+  COMP 0x02 DISP
+  RET

@@ -1,6 +1,8 @@
-.vscode
-.idea
+.vscode/
+.idea/
+.clangd
+.cache/
 .gdb_history
-./emu/.gdb_history
-./emu/.clangd
-
+dst/
+obj/
+compile_commands.json
